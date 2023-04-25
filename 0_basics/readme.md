@@ -38,3 +38,12 @@ Example:
 
 ## Delete non running images
     docker system prune
+
+## See image list
+    docker image ls
+
+## Remove image downloaded
+    docker image rm ID
+
+## Build image
+    docker build -t name:tag
